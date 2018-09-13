@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+}
+.c1{
+    
+    background-image: url(1.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    
+}
+
+.a4,.b4,.d4{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+nav ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    width: 100%;
+    
+   
+    
+}
+
+nav{
+    overflow: hidden;
+}
+
+nav ul li{
+    
+  
+    padding-left: 12px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+nav ul li a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+    
+    
+}
+
+
+.n1{
+    
+    
+    font-size: 20px;
+    padding-top: 12px;
+  
+
+
+
+}
+
+
+.n2{
+    
+   
+     padding-top: 16px;
+    font-size: 15px;
+    
+   
+    
+    
+ }
+
+.n3{
+    
+ 
+    
+    padding-top: 16px;
+    font-size: 15px;
+    padding-right: 5px;
+  
+    
+    
+
+}
+
+
+.h{
+    padding-top: 8%;
+    text-align: center;
+    
+    
+}
+#js{
+
+    font-family: sans-serif;
+    font-size: 52px;
+}
+
+
+.a1,.a2,.a3,.a5,.a9,.a10{
+     
+    border: 4px solid ;
+    border-color: black;
+    height: 25px;
+    width: 20%;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 11px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 14px;
+    min-width: 250px;
+   margin-right: 5px;
+   
+    
+    
+
+   
+}
+.a1{
+    
+
+  
+    background-color: #292222;
+
+}
+
+.a9{
+    
+    background-color: #292222;
+    
+}
+
+
+.a1,.a5,.a9{color: white;}
+
+
+
+.a1:hover,.a2:hover,.a3:hover,.a5:hover,.a6:hover,.a7:hover,.a8:hover,.a9:hover,.a10:hover
+{
+    background-color: black;
+    color: white;
+    
+}
+
+
+.c2{
+    
+    background-image: url(homepage-models.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.ha{
+    padding-top: 4%;
+    text-align: center;
+    font-size: 42px;
+    font-family: sans-serif;
+}
+
+p{
+    text-align: center;
+    font-size: 22px;
+    font-family: monospace;
+    color: #483a3a;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+.a6,.a7,.a8,.a5{
+     
+    border: 4px solid ;
+    border-color: black;
+    height: 30px;
+    width: 20%;
+   
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 13px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 14px;
+    min-width: 250px;
+    margin-right: 1%;
+   
+
+   
+}
+
+.a5{
+    
+  
+    background-color: #292222;
+
+}
+.c3{
+    background-image: url(homepage-modelx.jpg);
+    height: 100%;
+    width: 100%;
+    
+}
+
+.c4{
+    background-image: url(homepage-energy.jpg);
+    height: 100%;
+    width: 100%;
+   
+    
+}
+
+
+@media only screen and (max-width:600px)
+    
+{
+    
+    
+    .n2,.n3{
+        
+       display: none;
+    }
+    
+    .c1{
+        
+        background-image: url(2.jpg);
+        height: 100%;
+    }
+    
+    .a1,.a2,.a3,.a5,.a6,.a7,.a8,.a9,.a10{
+        
+        
+        border-color: white;
+        color: white;
+        width: 90%;
+        margin: 0 auto; 
+        
+        
+       
+        
+    }
+    .a4{
+        
+
+        flex-direction: column;
+        height: 125%;
+        align-items: flex-end;
+       
+        
+
+      
+    }
+    .b4{
+        
+        flex-direction: column;
+        height: 110%;
+        align-items: flex-end;
+       }
+    
+    .d4{
+        
+        flex-direction: column;
+     
+        align-items: flex-end;
+       }
+    
+    
+    .a2,.a3,.a6,.a7,.a8,.a10{
+        margin-top: 8px;
+    }
+    
+    .a1,.a5,.a9{
+        
+        
+        background-color: #f8f3f3;
+        color: black;
+       
+      
+        }
+  
+    
+    .a1:hover,.a2:hover,.a3:hover,.a5:hover,.a6:hover,.a7:hover,.a8:hover,.a9:hover,.a10:hover{
+        
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    
+    }
+    
+    
+    
+}
+
+
+
+
+
+
